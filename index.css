@@ -70,7 +70,7 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: #004d99;
+    color: linear-gradient(135deg, #ff0000, #ffe600, #00ff08, #00ffc3, #0000ff, #9900ff);
 }
 
 /* リスト */
