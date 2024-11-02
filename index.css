@@ -63,7 +63,7 @@ h3 {
 
 /* リンク */
 a {
-    color: #0066cc;
+    color: linear-gradient(135deg, #ff0000, #ffe600, #00ff08, #00ffc3, #0000ff, #9900ff);
     text-decoration: none;
     transition: color 0.3s;
 }
