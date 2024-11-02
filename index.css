@@ -19,7 +19,7 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5rem;
-    color: white;
+    color: rgb(255, 0, 0);
 }
 
 header p {
@@ -37,11 +37,11 @@ header p {
 
 /* セクション共通 */
 section {
-    background: white;
+    background: rgb(255, 247, 0);
     border-radius: 8px;
     padding: 2rem;
     margin-bottom: 2rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(82, 91, 0, 0.1);
 }
 
 /* 見出し */
@@ -51,7 +51,7 @@ h1, h2, h3 {
 }
 
 h2 {
-    border-bottom: 2px solid #e6f0ff;
+    border-bottom: 2px solid #a300ef;
     padding-bottom: 0.5rem;
     margin-bottom: 1.5rem;
 }
@@ -63,14 +63,14 @@ h3 {
 
 /* リンク */
 a {
-    color: linear-gradient(135deg, #ff0000, #ffe600, #00ff08, #00ffc3, #0000ff, #9900ff);
+    color: linear-gradient(135deg, #024d22, #01391b);;
     text-decoration: none;
     transition: color 0.3s;
 }
 
 a:hover {
     text-decoration: underline;
-    color: linear-gradient(135deg, #ff0000, #ffe600, #00ff08, #00ffc3, #0000ff, #9900ff);
+    color: #004d99;
 }
 
 /* リスト */
