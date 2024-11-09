@@ -1,23 +1,23 @@
 /* 全体のスタイル */
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'ＭＳ 明朝', Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #89f895;
+    color: #a3a3a3;
+    background-color: #474747;
 }
 
 /* ヘッダー部分 */
 header {
-    background: linear-gradient(135deg, #024d22, #01391b);
+    background: linear-gradient(135deg, #101010, #3b3b3b);
     color: white;
     padding: 2rem;
     text-align: center;
 }
 
 header h1 {
-    margin: 0;
+    margin: 10;
     font-size: 2.5rem;
     color: white;
 }
@@ -37,8 +37,8 @@ header p {
 
 /* セクション共通 */
 section {
-    background: white;
-    border-radius: 8px;
+    background: rgb(19, 19, 19);
+    /* border-radius: 8px; */
     padding: 2rem;
     margin-bottom: 2rem;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -46,12 +46,13 @@ section {
 
 /* 見出し */
 h1, h2, h3 {
-    color: #00cc81;
+    color: #d0d0d0;
     margin-top: 0;
 }
 
+
 h2 {
-    border-bottom: 2px solid #e6f0ff;
+    border-bottom: 2px solid #000000ba;
     padding-bottom: 0.5rem;
     margin-bottom: 1.5rem;
 }
@@ -102,7 +103,7 @@ li {
 .skill-tag {
     background: #e6f0ff;
     padding: 0.5rem 1rem;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     font-size: 0.9rem;
     transition: background-color 0.3s;
 }
