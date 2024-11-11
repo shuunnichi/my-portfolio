@@ -5,12 +5,12 @@ body {
     margin: 0;
     padding: 0;
     color: #a3a3a3;
-    background-color: #515151;
+    background-color: #48514a;
 }
 
 /* ヘッダー部分 */
 header {
-    background: linear-gradient(135deg, #101010, #3b3b3b);
+    background: linear-gradient(135deg, #101010, #383d3a);
     color: white;
     padding: 2rem;
     text-align: center;
@@ -22,6 +22,7 @@ img {
     border-radius: 50%;
     margin: 0 auto;
     display: block;
+    display: inline-block;
 }   
 
 header h1 {
@@ -45,7 +46,7 @@ header p {
 
 /* セクション共通 */
 section {
-    background: rgb(19, 19, 19);
+    background: rgb(18, 24, 19);
     /* border-radius: 8px; */
     padding: 2rem;
     margin-bottom: 2rem;
