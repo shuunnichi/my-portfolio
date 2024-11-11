@@ -13,9 +13,25 @@ let diffTime = Math.abs(date - startDate);
 let diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 let diffyeas = Math.ceil(diffDays / 365)-1;
 if (isNaN(diffyeas)) {
-    diffyeas = "2024年現在16";
+    diffyeas = "2024年11月11日現在16";
 }
 // console.log(diffDays);
+window.addEventListener("scroll", function() {
+    const scrollableSection = document.querySelector(".scrollable-section");
+    const fixedSection = document.querySelector(".fixed-section");
+
+    // 現在のスクロール位置を取得
+    const scrollTop = window.scrollY;
+
+    // 一定のスクロール量を超えたら移動
+    if (scrollTop > 200) {
+        fixedSection.style.position = "absolute";
+        fixedSection.style.top = scrollTop + "px"; // スクロールに応じて固定位置を調整
+    } else {
+        fixedSection.style.position = "fixed";
+        fixedSection.style.top = "0px";
+    }
+});
 </script>
 <body>
     <header>
@@ -60,7 +76,7 @@ if (isNaN(diffyeas)) {
             <!-- </div> -->
             <ul>
                 <li>Python (授業等で)</li>
-                <li>HTML/CSS (授業等で)</li>
+                <!-- <li>HTML/CSS (授業等で)</li> -->
                 <li>c++ （部活、授業等で）</li>
         </section>
 
