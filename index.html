@@ -17,22 +17,7 @@ if (isNaN(diffyeas)) {
     diffyeas = "2024年11月11日現在16";
 }
 // console.log(diffDays);
-window.addEventListener("scroll", function() {
-    const scrollableSection = document.querySelector(".scrollable-section");
-    const fixedSection = document.querySelector(".fixed-section");
 
-    // 現在のスクロール位置を取得
-    const scrollTop = window.scrollY;
-
-    // 一定のスクロール量を超えたら移動
-    if (scrollTop > 200) {
-        fixedSection.style.position = "absolute";
-        fixedSection.style.top = scrollTop + "px"; // スクロールに応じて固定位置を調整
-    } else {
-        fixedSection.style.position = "fixed";
-        fixedSection.style.top = "0px";
-    }
-});
 </script>
 <body>
     <header>

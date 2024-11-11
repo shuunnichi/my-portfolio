@@ -9,7 +9,7 @@ body {
 }
 
 body, html {
-    height: 200%;  /* ページ全体の高さを100%に */
+    height: 2000px;
 }
 
 /* ヘッダー部分 */
@@ -55,6 +55,9 @@ section {
     padding: 2rem;
     margin-bottom: 2rem;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 1000px;
+    
+    
 }
 
 /* 見出し */
