@@ -8,6 +8,10 @@ body {
     background-color: #48514a;
 }
 
+body, html {
+    height: 200%;  /* ページ全体の高さを100%に */
+}
+
 /* ヘッダー部分 */
 header {
     background: linear-gradient(135deg, #101010, #383d3a);
