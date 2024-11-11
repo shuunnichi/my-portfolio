@@ -11,16 +11,16 @@
 let startDate = new Date('2007-12-4');
 let diffTime = Math.abs(date - startDate);
 let diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-let diffyeas = Math.ceil(diffDays / 365);
+let diffyeas = Math.ceil(diffDays / 365)-1;
 if (isNaN(diffyeas)) {
-    diffyeas = 16;
+    diffyeas = "16";
 }
 // console.log(diffDays);
 </script>
 <body>
     <header>
         <h1>portforio</h1>
-        <p>浮津駿一 <script>document.write(diffyeas-1);</script>歳</p>
+        <p>浮津駿一 <script>document.write(diffyeas);</script>歳</p>
         <a href="https://github.com/shuunnichi"target="_blank">
         <img src="https://avatars.githubusercontent.com/u/138771233?v=4&size=64" alt="my icon" />
         </a>
